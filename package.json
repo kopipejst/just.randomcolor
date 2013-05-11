@@ -1,0 +1,18 @@
+{
+  "name": "just.randomcolor",
+  "version": "1.0",
+  "homepage": "http://workshop.rs/projects/just-randomcolor",
+  "keywords": ["color","colors","random"],
+  "description": "generate random color and converts to desired format",
+  "main": "just.RandomColor.js",
+  "scripts": {
+    "test": "mocha test -R spec"
+  },
+  "repository": {"type": "git", "url": "git://github.com/documentcloud/underscore.git"},
+  "author": "Ivan Lazarevic",
+  "license": "MIT",
+  "devDependencies": {
+    "mocha": "~1.0",
+    "chai" : "~1.6"
+  }
+}
