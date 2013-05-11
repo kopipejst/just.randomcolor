@@ -1,6 +1,6 @@
 {
   "name": "just.randomcolor",
-  "version": "1.0",
+  "version": "0.0.2",
   "homepage": "http://workshop.rs/projects/just-randomcolor",
   "keywords": ["color","colors","random"],
   "description": "generate random color and converts to desired format",

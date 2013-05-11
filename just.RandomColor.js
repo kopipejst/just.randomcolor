@@ -32,7 +32,7 @@ just.RandomColor = function (options) {
     // merge default with user options
     for (var i in defaults) { 
         if (options && options[i]) {
-            defaults[i] = options[i]; 
+            defaults[i] = options[i];
         }
     }
 
@@ -122,5 +122,6 @@ just.RandomColor.prototype.toCSS = function () {
     }
 };
 
-
-module.exports = just.RandomColor;
+if (typeof module !== 'undefined') {
+    module.exports = just.RandomColor;
+}
