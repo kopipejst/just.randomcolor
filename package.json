@@ -6,7 +6,7 @@
   "description": "generate random color and converts to desired format",
   "main": "just.RandomColor.js",
   "scripts": {
-    "test": "mocha test -R spec"
+    "test": "mocha -R spec"
   },
   "repository": {"type": "git", "url": "git@github.com:kopipejst/just.randomcolor.git"},
   "author": "Ivan Lazarevic",
