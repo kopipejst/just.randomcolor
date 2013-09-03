@@ -1,5 +1,8 @@
 #just.RandomColor#
 
+[![Build Status](https://travis-ci.org/kopipejst/just.randomcolor.png)](https://travis-ci.org/kopipejst/just.randomcolor)
+
+
 JavaScript random color generator
 
 ##Installation##
