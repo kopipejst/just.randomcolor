@@ -37,9 +37,8 @@ just.RandomColor = (function() {
      * @return {[type]} [description]
      */
     RandomColor.prototype.toRGB = function() {
-        var colors = [];
         for (var i = 0; i < this.colors.length; i++) {
-            colors.push(this.colors[i].toRGB());
+            this.colors[i].toRGB();
         }
         return this;
     };
@@ -49,9 +48,8 @@ just.RandomColor = (function() {
      * @return {[type]} [description]
      */
     RandomColor.prototype.toRGBA = function() {
-        var colors = [];
         for (var i = 0; i < this.colors.length; i++) {
-            colors.push(this.colors[i].toRGBA());
+            this.colors[i].toRGBA();
         }
         return this;
     };
@@ -61,9 +59,8 @@ just.RandomColor = (function() {
      * @return {[type]} [description]
      */
     RandomColor.prototype.toHex = function() {
-        var colors = [];
         for (var i = 0; i < this.colors.length; i++) {
-            colors.push(this.colors[i].toHex());
+            this.colors[i].toHex();
         }
         return this;
     };
@@ -73,11 +70,10 @@ just.RandomColor = (function() {
      * @return {[type]} [description]
      */
     RandomColor.prototype.toCSS = function() {
-        var colors = [];
         for (var i = 0; i < this.colors.length; i++) {
-            colors.push(this.colors[i].toCSS());
+            this.colors[i].toCSS();
         }
-        return colors;
+        return this.colors;
     };
 
     /**
@@ -85,9 +81,8 @@ just.RandomColor = (function() {
      * @return {[type]} [description]
      */
     RandomColor.prototype.refresh = function() {
-        var colors = [];
         for (var i = 0; i < this.colors.length; i++) {
-            colors.push(this.colors[i].refresh());
+            this.colors[i].refresh();
         }
         return this;
     };
@@ -218,3 +213,8 @@ just.RandomColor = (function() {
 if (typeof module !== 'undefined' && module.exports) {
     module.exports = just.RandomColor;
 }
+
+
+var rc = new just.RandomColor(null, 5);
+
+console.log(rc.toRGB().toCSS());
