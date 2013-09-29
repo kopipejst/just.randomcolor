@@ -213,8 +213,3 @@ just.RandomColor = (function() {
 if (typeof module !== 'undefined' && module.exports) {
     module.exports = just.RandomColor;
 }
-
-
-var rc = new just.RandomColor(null, 5);
-
-console.log(rc.toRGB().toCSS());
