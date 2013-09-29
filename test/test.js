@@ -20,7 +20,7 @@ describe("just.RandomColor", function () {
     });
 
     it("array", function () {
-        colors = new RandomColor(null, 5);
+        var colors = new RandomColor(null, 5);
         expect(colors).not.to.be.an('undefined');
         expect(colors.colors).to.have.length(5);
         expect(colors.toRGB().toCSS()).to.have.length(5);
