@@ -1,18 +1,25 @@
 {
   "name": "just.randomcolor",
-  "version": "0.0.3",
+  "version": "0.1.0",
   "homepage": "http://workshop.rs/projects/just-randomcolor",
-  "keywords": ["color","colors","random"],
+  "keywords": [
+    "color",
+    "colors",
+    "random"
+  ],
   "description": "generate random color and converts to desired format",
   "main": "just.RandomColor.js",
   "scripts": {
     "test": "mocha -R spec"
   },
-  "repository": {"type": "git", "url": "git@github.com:kopipejst/just.randomcolor.git"},
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:kopipejst/just.randomcolor.git"
+  },
   "author": "Ivan Lazarevic",
   "license": "MIT",
   "devDependencies": {
     "mocha": "~1.0",
-    "chai" : "~1.6"
+    "chai": "~1.6"
   }
 }
