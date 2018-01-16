@@ -70,10 +70,15 @@ just.RandomColor = (function() {
      * @return {[type]} [description]
      */
     RandomColor.prototype.toCSS = function() {
-        for (var i = 0; i < this.colors.length; i++) {
-            this.colors[i].toCSS();
+        if (this.colors.length === 1) {
+            return this.colors;
         }
-        return this.colors;
+
+        var colors = [];
+        for (var i = 0; i < this.colors.length; i++) {
+            colors.push(this.colors[i].toCSS());
+        }
+        return colors;
     };
 
     /**
