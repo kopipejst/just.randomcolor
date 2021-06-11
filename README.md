@@ -30,10 +30,10 @@ JavaScript random color generator
 
 **node.js**
 
-***for one color***
+****for one color****
 	var color = new RandomColor(options);
 
-***for array of colors***
+****for array of colors****
 	var colors = new RandomColor(options, length);
 
 **browser**
