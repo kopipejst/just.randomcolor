@@ -1,13 +1,13 @@
-#just.RandomColor#
+# just.RandomColor
 
 [![Build Status](https://travis-ci.org/kopipejst/just.randomcolor.png)](https://travis-ci.org/kopipejst/just.randomcolor)
 
 
 JavaScript random color generator
 
-##Installation##
+## Installation
 
-###Node.js###
+### Node.js
 
 **npm package**
 
@@ -18,15 +18,15 @@ JavaScript random color generator
 
 	var RandomColor = require('just.randomcolor');
 
-###Browser###
+### Browser
 
 - download just.RandomColor.js from [GitHub](https://github.com/kopipejst/just.randomcolor)
 - include on your page: `<script src="just.RandomColor.js"></script>`
 
 
-##Usage##
+## Usage
 
-####generate random color
+#### generate random color
 
 **node.js**
 
@@ -41,7 +41,7 @@ JavaScript random color generator
 	var color = new just.RandomColor(options);
 	var colors = new just.RandomColor(options, length);
 	
-####Arguments####
+#### Arguments
 
 ***options***
 Options are optionaly max and min values for each of rbga components. Example:
@@ -57,7 +57,7 @@ Options are optionaly max and min values for each of rbga components. Example:
 ***length***
 length of array of colors (default 1)
 
-####get color
+#### get color
 
 	***for one color***
 	color.value; // {r: 56, g: 195, b: 227, a: 0.6}
@@ -65,7 +65,7 @@ length of array of colors (default 1)
 	***for array of colors***
 	colors.colors; // each element in array have `value` property
 
-###functions###
+### functions
 
  **toHex**
  
