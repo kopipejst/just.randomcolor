@@ -59,10 +59,10 @@ length of array of colors (default 1)
 
 #### get color
 
-	***for one color***
+	// for one color
 	color.value; // {r: 56, g: 195, b: 227, a: 0.6}
 
-	***for array of colors***
+	// for array of colors
 	colors.colors; // each element in array have `value` property
 
 ### functions
